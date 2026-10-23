@@ -1,2 +1,21 @@
-data/**/omi/
+# Dati grezzi OMI e CSV pulito (centinaia di MB, si rigenerano col notebook 02)
+data/Raw/Omi/
+data/processed/omi_semestri_puliti.csv
+
+# File di Jupyter e Anaconda
 .ipynb_checkpoints/
+.virtual_documents/
+anaconda_projects/
+
+# Notebook di lavoro, non finali
+notebooks/02_omi_esplorazione*.ipynb
+notebooks/*(penultimo)*.ipynb
+notebooks/04_analisi_(1).ipynb
+
+# Script di servizio
+elenco_repo.py
+elenco_repo.txt
+
+# Python
+__pycache__/
+*.pyc
